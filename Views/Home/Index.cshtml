@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center mt-5">
+
+    <h1 class="display-4 fw-bold">
+        Student Course Registration System
+    </h1>
+
+    <p class="lead mt-3">
+        Welcome to our Student Registration Portal.
+    </p>
+
+    <p>
+        Register students, view student lists
+        and check individual student details.
+    </p>
+
+    <a asp-controller="Student"
+       asp-action="Create"
+       class="btn btn-primary btn-lg mt-3">
+        Register Student
+    </a>
+
+    <a asp-controller="Student"
+       asp-action="Index"
+       class="btn btn-success btn-lg mt-3">
+        View Students
+    </a>
+
+</div>
